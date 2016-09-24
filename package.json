@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha tests"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cyrandy/crowdin/issues"
   },
-  "homepage": "https://github.com/cyrandy/crowdin#readme"
+  "homepage": "https://github.com/cyrandy/crowdin#readme",
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
 }
