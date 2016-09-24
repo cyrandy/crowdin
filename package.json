@@ -1,0 +1,20 @@
+{
+  "name": "crowdin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrandy/crowdin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrandy/crowdin/issues"
+  },
+  "homepage": "https://github.com/cyrandy/crowdin#readme"
+}
