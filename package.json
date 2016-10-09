@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/.bin/mocha tests"
+    "build": "./scripts/build.sh",
+    "test": "./node_modules/.bin/mocha tests",
+    "gettx": "./node_modules/.bin/jsxgettext -k translate src/* -p translations/ -o translations.pot",
+    "mergetx": "./scripts/mergetx.sh"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,9 @@
   },
   "homepage": "https://github.com/cyrandy/crowdin#readme",
   "devDependencies": {
-    "mocha": "^3.0.2"
+    "jsxgettext": "0.9.0",
+    "mocha": "^3.0.2",
+    "po2json": "^0.4.4",
+    "pug": "^2.0.0-beta6"
   }
 }

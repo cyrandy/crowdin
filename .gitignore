@@ -1,1 +1,5 @@
 node_modules
+translations/*
+**/LC_MESSAGES/*
+**/.DS_Store
+build
