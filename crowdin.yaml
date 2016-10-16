@@ -2,3 +2,4 @@ files:
   -
     source: '/resources/**/*.po'
     translation: '/resources/%two_letters_code%/LC_MESSAGES/%original_file_name%'
+    
