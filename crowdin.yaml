@@ -1,5 +1,4 @@
 files:
-  -
-    source: '/translations/translations.pot'
+  - 
+    source: /translations/translations.pot
     translation: '/resources/%two_letters_code%/messages.po'
-    
